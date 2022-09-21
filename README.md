@@ -1,5 +1,9 @@
 ## Password 🔑
 
+![Build Status](https://github.com/matteopolak/password/actions/workflows/rust.yml/badge.svg)
+[![License:MIT](https://img.shields.io/badge/license-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Rust:Nightly](https://img.shields.io/badge/rust-nightly-blue.svg)](https://www.rust-lang.org/tools/install)
+
 A lightweight and featureful password generator.
 
 ## Usage
