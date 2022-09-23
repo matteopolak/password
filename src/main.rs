@@ -14,6 +14,18 @@ fn main() {
 		if let Some(chars) = args.chars {
 			let mut unique = HashSet::new();
 
+			if args.digits {
+				unique.extend(constants::DIGITS.as_slice());
+			}
+
+			if args.lower {
+				unique.extend(constants::LETTERS_LOWER.as_slice());
+			}
+
+			if args.upper {
+				unique.extend(constants::LETTERS_UPPER.as_slice());
+			}
+
 			chars
 				.chars()
 				.filter(|c| unique.insert(*c))

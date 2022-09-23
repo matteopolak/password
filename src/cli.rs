@@ -3,7 +3,7 @@ use clap::Parser;
 #[derive(Parser)]
 #[clap(version = "0.1.0", author = "Matthew Polak")]
 pub struct Args {
-	/// List of characters to use; overrides all other options
+	/// List of characters to use in addition to other options
 	#[clap(short = 'c', long, value_parser)]
 	pub chars: Option<String>,
 
