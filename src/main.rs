@@ -26,10 +26,11 @@ fn main() {
 				unique.extend(constants::LETTERS_UPPER.as_slice());
 			}
 
-			chars
-				.chars()
-				.filter(|c| unique.insert(*c))
-				.collect::<Vec<_>>()
+			chars.chars().for_each(|c| {
+				unique.insert(c);
+			});
+
+			unique.into_iter().collect::<Vec<_>>()
 		} else {
 			let mut chars = Vec::new();
 
