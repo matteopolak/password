@@ -60,7 +60,7 @@ fn main() {
 		}
 	};
 
-	let password = generate::random_string(&chars, args.length);
-
-	println!("{}", password);
+	for _ in 0..args.num {
+		println!("{}", generate::random_string(&chars, args.length));
+	}
 }

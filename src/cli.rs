@@ -7,6 +7,10 @@ pub struct Args {
 	#[clap(short = 'c', long, value_parser)]
 	pub chars: Option<String>,
 
+	/// Number of passwords to generate
+	#[clap(short = 'n', long, default_value_t = 1)]
+	pub num: usize,
+
 	/// Whether to use digits
 	#[clap(short = 'd', long, takes_value = false)]
 	pub digits: bool,

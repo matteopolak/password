@@ -14,11 +14,12 @@ A lightweight and featureful password generator.
 | `-c`, `--chars` \<number\>  | ❌                        | List of characters to use; overrides all other options |
 | `-d`, `--digits`            | ✔️                        | Whether to use digits                                  |
 | `-h`, `--help`              |                           | Print help information                                 |
+| `-n`, `--num` \<number\>    | 1                         | The number of passwords to generate                    |
 | `-l`, `--length` \<number\> | 12                        | Length of the password                                 |
 | `-o`, `--lower`             | ✔️                        | Whether to use lowercase letters                       |
 | `-s`, `--special`           | ❌                        | Whether to use special characters                      |
 | `-u`, `--upper`             | ✔️                        | Whether to use uppercase letters                       |
-| `-V`, `--version`           | Print version information |
+| `-V`, `--version`           | | Print version information |
 
 ## Install
 
