@@ -8,7 +8,7 @@
 A lightweight and featureful password generator.
 
 ```powershell
-Usage: password.exe [OPTIONS]
+Usage: password [OPTIONS]
 Options:
   -a, --all              Whether to use every option
   -c, --chars <CHARS>    List of characters to use in addition to other options
